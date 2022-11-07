@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "朋友_KOKO 好友_邀請待回覆.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

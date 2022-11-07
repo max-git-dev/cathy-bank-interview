@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="朋友_KOKO 好友_New Comer" translatesAutoresizingMaskIntoConstraints="NO" id="LFK-EH-jip">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEQ-rV-aT4" userLabel="Button_ATM">
+                                <rect key="frame" x="33" y="33" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="ic-nav-pink-withdraw"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSt-Hm-fGM" userLabel="Button_$">
+                                <rect key="frame" x="83" y="33" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="ic-nav-pink-transfer"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmB-CL-WHE" userLabel="Button_Scan">
+                                <rect key="frame" x="357" y="33" width="24" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="ic-nav-pink-scan"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img-friends-female-default" translatesAutoresizingMaskIntoConstraints="NO" id="Xe0-5H-v2a">
+                                <rect key="frame" x="319" y="87" width="52" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="紫晽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTu-7Q-EsU">
+                                <rect key="frame" x="44" y="95" width="52" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="設定 KOKO ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dap-AQ-I5j">
+                                <rect key="frame" x="44" y="123" width="85" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.2784313725" green="0.2784313725" blue="0.2784313725" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LFK-EH-jip" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9Tj-73-i1W"/>
+                            <constraint firstItem="LFK-EH-jip" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Azn-9u-vIB"/>
+                            <constraint firstAttribute="trailing" secondItem="LFK-EH-jip" secondAttribute="trailing" id="hMM-Qo-HJ1"/>
+                            <constraint firstItem="LFK-EH-jip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kwX-3p-ta3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1103" y="-139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4br-co-Avk">
+            <objects>
+                <viewController id="i3N-yL-Afi" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="isL-TZ-9JX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="朋友_KOKO 好友_列表" translatesAutoresizingMaskIntoConstraints="NO" id="QTC-8I-KV0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wjP-e9-3Zd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="bottom" secondItem="wjP-e9-3Zd" secondAttribute="bottom" id="4B0-ll-Nik"/>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="leading" secondItem="wjP-e9-3Zd" secondAttribute="leading" id="4rp-En-KUV"/>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="trailing" secondItem="wjP-e9-3Zd" secondAttribute="trailing" id="AiH-4Z-zrN"/>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="leading" secondItem="wjP-e9-3Zd" secondAttribute="leading" id="ORq-lE-Qdj"/>
+                            <constraint firstAttribute="trailing" secondItem="QTC-8I-KV0" secondAttribute="trailing" id="Vqf-DN-dqK"/>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="top" secondItem="wjP-e9-3Zd" secondAttribute="top" id="gpa-MJ-6LC"/>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="top" secondItem="wjP-e9-3Zd" secondAttribute="top" id="kMS-s1-YJd"/>
+                            <constraint firstItem="QTC-8I-KV0" firstAttribute="bottom" secondItem="wjP-e9-3Zd" secondAttribute="bottom" id="xtP-iM-89O"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f0y-76-Pva" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="-138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ARD-GD-5M6">
+            <objects>
+                <viewController id="arH-Hv-iZ0" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vxY-NN-KUR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="朋友_KOKO 好友_邀請待回覆" translatesAutoresizingMaskIntoConstraints="NO" id="SvU-u0-TTM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wW5-oi-SSX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="top" secondItem="wW5-oi-SSX" secondAttribute="top" id="3IY-5e-BQj"/>
+                            <constraint firstAttribute="trailing" secondItem="SvU-u0-TTM" secondAttribute="trailing" id="CJv-8u-zqq"/>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="bottom" secondItem="wW5-oi-SSX" secondAttribute="bottom" id="SqG-p8-icD"/>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="trailing" secondItem="wW5-oi-SSX" secondAttribute="trailing" id="eGE-Oc-AEU"/>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="leading" secondItem="wW5-oi-SSX" secondAttribute="leading" id="fbH-E4-j7b"/>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="leading" secondItem="wW5-oi-SSX" secondAttribute="leading" id="qsq-vL-HeJ"/>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="top" secondItem="wW5-oi-SSX" secondAttribute="top" id="xOo-yl-rvu"/>
+                            <constraint firstItem="SvU-u0-TTM" firstAttribute="bottom" secondItem="wW5-oi-SSX" secondAttribute="bottom" id="y8s-B5-TgB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Cj-ln-6GV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="-99"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iii-df-phX">
+            <objects>
+                <viewController id="mGY-f8-HUe" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XgO-La-zbQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="朋友_KOKO 好友_邀請展開" translatesAutoresizingMaskIntoConstraints="NO" id="qzw-Sr-bNu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TFG-Gz-QPR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="leading" secondItem="TFG-Gz-QPR" secondAttribute="leading" id="KY3-Gb-F4r"/>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="trailing" secondItem="TFG-Gz-QPR" secondAttribute="trailing" id="Oa8-l1-ZDT"/>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="leading" secondItem="TFG-Gz-QPR" secondAttribute="leading" id="Yzx-4e-rvt"/>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="bottom" secondItem="TFG-Gz-QPR" secondAttribute="bottom" id="glW-O3-yTG"/>
+                            <constraint firstAttribute="trailing" secondItem="qzw-Sr-bNu" secondAttribute="trailing" id="iq1-Uf-r6C"/>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="top" secondItem="TFG-Gz-QPR" secondAttribute="top" id="sA4-Ua-rCT"/>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="top" secondItem="TFG-Gz-QPR" secondAttribute="top" id="zUl-HF-U2J"/>
+                            <constraint firstItem="qzw-Sr-bNu" firstAttribute="bottom" secondItem="TFG-Gz-QPR" secondAttribute="bottom" id="zYe-Sj-v6k"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s7J-DQ-Z28" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1365" y="-99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic-nav-pink-scan" width="24" height="24"/>
+        <image name="ic-nav-pink-transfer" width="24" height="24"/>
+        <image name="ic-nav-pink-withdraw" width="24" height="24"/>
+        <image name="img-friends-female-default" width="52" height="54"/>
+        <image name="朋友_KOKO 好友_New Comer" width="750" height="1410"/>
+        <image name="朋友_KOKO 好友_列表" width="750" height="1334"/>
+        <image name="朋友_KOKO 好友_邀請展開" width="750" height="1334"/>
+        <image name="朋友_KOKO 好友_邀請待回覆" width="750" height="1334"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
