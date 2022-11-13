@@ -14,6 +14,7 @@
 		7F0350EE29194CE40023D965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F0350ED29194CE40023D965 /* Assets.xcassets */; };
 		7F0350F129194CE40023D965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F0350EF29194CE40023D965 /* LaunchScreen.storyboard */; };
 		7F0350F429194CE40023D965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0350F329194CE40023D965 /* main.m */; };
+		7F7997C029211D3A006C8976 /* FreindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7997BF29211D3A006C8976 /* FreindViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		7F0350F029194CE40023D965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F0350F229194CE40023D965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F0350F329194CE40023D965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F7997BE29211D3A006C8976 /* FreindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreindViewController.h; sourceTree = "<group>"; };
+		7F7997BF29211D3A006C8976 /* FreindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreindViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				7F0350EF29194CE40023D965 /* LaunchScreen.storyboard */,
 				7F0350F229194CE40023D965 /* Info.plist */,
 				7F0350F329194CE40023D965 /* main.m */,
+				7F7997BE29211D3A006C8976 /* FreindViewController.h */,
+				7F7997BF29211D3A006C8976 /* FreindViewController.m */,
 			);
 			path = "Cathy-Bank-Interview";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 				7F0350E329194CE20023D965 /* AppDelegate.m in Sources */,
 				7F0350F429194CE40023D965 /* main.m in Sources */,
 				7F0350E629194CE20023D965 /* SceneDelegate.m in Sources */,
+				7F7997C029211D3A006C8976 /* FreindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
